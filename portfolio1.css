@@ -1,0 +1,59 @@
+body{
+    background-image: url("mainBackground.jpg");
+    background-size: cover;
+}
+
+nav{
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    background-color: #C0C0C0;
+}
+
+.col-left{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+}
+.col-left p,h1{
+    color: aliceblue;
+}
+
+.copyright-check{
+    background-color: white;
+    color: black;
+}
+
+.foot-left{
+    width: 50%;
+}
+
+.foot-right{
+    width: 50%;
+}
+
+#copyright-footer{
+    text-align: center;
+    top: 80%;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
