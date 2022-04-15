@@ -13,43 +13,52 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="bg-light">
+        <nav class="bg-light mb-4">
             <div class="container">
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="/portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
-
-        <!-- Main -->
-        <main id="main-content-index">
-            <div class="col-left">
-                <div class="container-fluid col-left-content">
-                    <h1>My Portfolio</h1>
-                </br>
-                   <div class="index-content"><p>Hi, I am Vernord Musran! Full stack web developer have been my dream after entering Universiti Malaysia Sabah.
-                       I am here to share with you about my skills experience as a programmer. To get started, click the button below.
-                   </p></div>
-                   <button class="btn btn-warning"><a href="/portfolio.html" style="text-decoration: none; color: black;">Get Started</a></button>
+        <!-- Section -->
+        <section class="p-3 d-flex">
+            <div class="container bg-light border border-dark rounded col-3">
+                <div class="container">
+                    <h2 class="text-center">Contact Information</h2>
                 </div>
-            </div>
-
-        </main>
-
-        <!-- footer -->
-        <footer id="copyright-footer" class="bg-light">
-            <div class="container">
-                <h2 style="font-family:Arial, Helvetica, sans-serif;">Contact</h2>
-                <p style="font-family: sans-serif;">To get more information, feel free to contact us using the platform below.</p>
+                <p>Phone Number : <a href="https://wa.me/0176073050" style="color: black;">0176073050</a></p>
+                <br>
+                <p>Email Address: <a href="mailto:vernordmusran27@gmail.com" style="color: black;">vernordmusran27@gmail.com</a></p>
+                <br>
                 <div class="icon-container">
                     <a href="https://www.facebook.com/people/Vernord-Musran/100008395125596/" class="fa fa-facebook-official"></a>
                     <a href="https://www.linkedin.com/in/vernord-musran-53145a189/" class="fa fa-linkedin"></a>
                     <a href="https://www.instagram.com/vernordmusran_bi19110110/" class="fa fa-instagram"></a>
                 </div>
-                Copyright&copy;2017 Vernord Musran
-           </div>
-        </footer>
+            </div>
+            <div class="container bg-light border border-dark rounded col-8">
+                <h1 class="text-center" style="color: black;">Contact Us</h1>
+                <p class="text-center">Your comment is appreciated.</p>
+                <form action="ContactUs.html" name="complaint" onsubmit="validateComplaint()" method="post">
+                    <div class="form-group">
+                        <label for="">Fullname:</label>
+                        <input type="text" placeholder="Name" class="col-12">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email Address:</label>
+                        <input name="Email" type="email" placeholder="Email" class="col-12">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Your Comment:</label>
+                        <textarea name="" id="" cols="30" rows="10" class="col-12"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>  
     </body>
-</html> 
+</html>
